@@ -48,7 +48,7 @@ public class LaserHazardSpawner : MonoBehaviour {
 	src = shifterCheck.GetComponent<AudioSource> ();
         if (addScreenShake)
         camShake = GameObject.FindWithTag("MainCamera").GetComponent<CamShakeSimple>();
-    }
+       }
 
 	public void StartMetronome()
 	{
